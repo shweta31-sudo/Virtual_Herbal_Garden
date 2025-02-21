@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+    background-color: #E8F5E9; /* Soft herbal green */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container Styling */
+.update-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #A5D6A7;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* Subtle texture */
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #2E7D32; /* Deep green */
+    font-family: 'Georgia', serif;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #A5D6A7;
+    border-radius: 5px;
+    background: #F1F8E9; /* Light green tint */
+    color: #2E7D32;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+}
+
+input::placeholder {
+    color: #A5D6A7;
+}
+
+/* Focus Effect */
+input:focus {
+    outline: none;
+    border: 2px solid #388E3C;
+    background: #DCEDC8; /* Light herbal green */
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Herbal green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #388E3C; /* Darker green */
+}

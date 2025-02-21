@@ -1,0 +1,48 @@
+/* General Styling */
+body {
+    background-color: #E8F5E9; /* Soft herbal green */
+    font-family: 'Arial', sans-serif;
+}
+
+/* User Container */
+.user-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    border: 2px solid #A5D6A7;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* Subtle natural texture */
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #2E7D32; /* Deep green */
+    font-family: 'Georgia', serif;
+}
+
+/* User List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #F1F8E9; /* Light green tint */
+    border: 1px solid #A5D6A7;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #2E7D32;
+    text-align: center;
+}
+
+/* Hover Effect */
+li:hover {
+    background-color: #DCEDC8; /* Softer herbal green */
+    cursor: pointer;
+}
